@@ -32,7 +32,7 @@ map:{
     ; appMap = map:{
         ; migueldora = map:{
             ; path = ..
-            ; freeGenList = list:{ env ; config ; label ; message ; mail ; template ; html ; doc }
+            ; freeGenList = list:{ env ; config ; label ; message ; mail ; template ; html ; doc ; webcls }
             ; propertiesHtmlList = list:{ env ; config ; label ; message }
         }
     }
