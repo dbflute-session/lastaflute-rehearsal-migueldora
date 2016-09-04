@@ -53,8 +53,8 @@ public abstract class MigueldoraBaseAction extends TypicalAction // has several 
     // ===================================================================================
     //                                                                          Definition
     //                                                                          ==========
-    /** The application type for HarBoR, e.g. used by access context. */
-    protected static final String APP_TYPE = "HBR"; // #change_it_first
+    /** The application type for MiGuelDora, e.g. used by access context. */
+    protected static final String APP_TYPE = "MGD"; // #change_it_first
 
     /** The user type for Member, e.g. used by access context. */
     protected static final String USER_TYPE = "M"; // #change_it_first

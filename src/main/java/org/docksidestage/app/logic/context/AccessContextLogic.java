@@ -66,7 +66,7 @@ public class AccessContextLogic {
     private String buildAccessUserTrace(AccessContextResource resource, UserTypeSupplier userTypeSupplier,
             UserInfoSupplier userBeanSupplier, AppTypeSupplier appTypeSupplier) {
         // #change_it you can customize the user trace for common column
-        // example default style: "M:7,DCK,ProductListAction" or "_:_,DCK,ProductListAction"
+        // example default style: "M:7,MGD,ProductListAction" or "_:_,MGD,ProductListAction"
         final StringBuilder sb = new StringBuilder();
         sb.append(userTypeSupplier.supply().orElse("_")).append(":");
         sb.append(userBeanSupplier.supply().orElse("_"));
